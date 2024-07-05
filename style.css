@@ -309,11 +309,26 @@ table td button{
     background-color: rgb(1, 193, 1);
 }
 
-/* Recent Coins visits */
-.recent-coins-visits {
-  width: 300px;
-  background-color: #050514;
-  border-radius: 10px;
-  padding: 10px;
-  color: rgb(202, 202, 202);
+::-webkit-scrollbar{
+    display: none;
 }
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    padding: 5px 10px;
+    margin: 0 5px;
+    border: none;
+    background-color: #050514;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .pagination button:hover {
+    background-color: #d5d5d520;
+  }
+  
