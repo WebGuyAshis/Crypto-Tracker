@@ -8,7 +8,7 @@
 body{
     height: 100dvh;
     width: 100%;
-    background-color: #0a0a1a;
+    background-color: #050514;
 }
 
 .center-item{
@@ -106,4 +106,45 @@ body{
     padding: 2px;
     object-fit: cover;
     border-radius: 50%;
+}
+
+/* main */
+
+main{
+    background-color: #09091f;
+    padding: 10px;
+    border-radius: 10px;
+    height: calc(100% - 8vh);
+}
+
+/* sidebar */
+.sidebar{
+    width: 240px;
+    background-color: #050514;
+    height: 100%;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.sidebar-options{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.nav-link{
+    padding: 8px 10px;
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    border-radius: 6px;
+    color: rgba(189, 189, 189, 0.582);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.active-nav{
+    background: linear-gradient(to right,rgb(115, 177, 228), rgb(7, 131, 233));
+    color: white;
 }
