@@ -134,7 +134,7 @@ main {
   gap: 10px;
 }
 
-.nav-link {
+.nav-link a {
   padding: 8px 10px;
   display: flex;
   gap: 6px;
@@ -143,11 +143,12 @@ main {
   color: rgba(189, 189, 189, 0.582);
   transition: all 0.3s ease;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .active-nav {
-  background: linear-gradient(to right, rgb(115, 177, 228), rgb(7, 131, 233));
-  color: white;
+  background: linear-gradient(to right, rgb(115, 177, 228), rgb(7, 131, 233)) !important;
+  color: white !important;
 }
 
 /* content */
