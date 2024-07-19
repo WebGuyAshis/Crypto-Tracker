@@ -36,6 +36,9 @@ const populateTable = (coins) => {
                 }</button>
             </td>
         `;
+        row.addEventListener('click',(e)=>{
+          window.location.href = `./pages/coins/coin.html?coinName=${coin.id}`
+        })
     row
       .querySelector(".like-btn")
       .addEventListener("click", () => toggleFavorite(coin));
